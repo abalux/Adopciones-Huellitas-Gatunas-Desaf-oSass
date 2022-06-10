@@ -1,0 +1,132 @@
+body{
+    background-color: #7ac48f;
+    color: black;
+}
+.navBar{
+    background-color: #EDC79B;
+}
+.headerHeight{
+    height: 100vh;
+}
+.pagePreinfo{
+    background-color: #CA6680;
+}
+.pageInfo{
+    background-color: #7ac48f;
+}
+aside{
+    background-image: linear-gradient(to bottom right,#df8a76,#e2421e);
+}
+aside ul li{
+    list-style: none;
+}
+footer{
+    padding-top: 10px;
+    background-color: #713E5A;
+}
+.colorText{
+    color: black;
+    text-decoration: none;
+}
+.otherColortext{
+    color: rgb(105, 15, 189);
+    text-decoration: none;
+}
+.catchEyecolor{
+    color:#a51499
+}
+.pageFonts{
+    font-family: 'Marcellus', serif;
+}
+.indexTitlepadding{
+    padding-left: 200px;
+}
+.adoptionsTitlepadding{
+    padding-top: 200px;
+}
+.indexBackgroundimage{
+    background-image: url("https://getwallpapers.com/wallpaper/full/6/8/2/1179664-cat-hd-wallpapers-1080p-1920x1080-smartphone.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.adoptionsBackgroundimage{
+    background-image: url("https://getwallpapers.com/wallpaper/full/d/f/e/1179575-cat-hd-wallpapers-1080p-1920x1080-hd.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.careBackgroundimage{
+    background-image: url("https://getwallpapers.com/wallpaper/full/2/0/e/1179861-download-cat-hd-wallpapers-1080p-1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.donationsBackgroundimage{
+    background-image: url("https://getwallpapers.com/wallpaper/full/8/6/5/1180065-cool-cat-hd-wallpapers-1080p-1920x1080-windows.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.contactBackgroundimage{
+ background-image: url("https://getwallpapers.com/wallpaper/full/e/f/2/1179657-top-cat-hd-wallpapers-1080p-1920x1080-for-ios.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.adoptionsTransformation article div:hover{
+    transform: scale(1.2,1.2);
+    }
+.animate__animated.animate__backOutDown{
+    animation-delay: 1.5s;
+    animation-duration: 3s;
+}
+.animate__animated.animate__bounceInLeft{
+    animation-delay: 1.5s;
+    animation-duration: 2s;
+}
+.animate__animated.animate__rotateInDownRight{
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+.animate__animated.animate__shakeX{
+    animation-duration: 2s;
+}
+.animate__animated.animate__bounceInRight{
+    animation-delay: 1s;
+    animation-duration: 2s;
+
+}
+.animate__animated.animate__fadeInUp{
+    animation-delay: 1s;
+    animation-duration: 2s;
+    color: #97003a;
+}
+.animate__animated.animate__headShake{
+    animation-duration: 2s;
+    animation-delay: 5.5s;
+}
+@media screen and (max-width: 620px){
+    .indexBackgroundimage{
+        background-position: 75%;
+    }
+    .indexTitlepadding{
+        padding-left: 20px;
+    }
+}
+@media screen  and (max-width: 480px){
+    section article div ul{
+        padding-right: 5px;
+    }
+    .adoptionsTitlepadding{
+        padding-top: 300px;
+        padding-left: 20px;
+    }
+    .indexBackgroundimage{
+        background-position: 85%;
+    }
+    .subtitleColor{
+        color: #a51499;
+    }
+    .careBackgroundimage{
+        background-position: 35%;
+    }
+    .contactBackgroundimage{
+        background-position: 40%;
+    }
+}

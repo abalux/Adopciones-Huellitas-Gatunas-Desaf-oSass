@@ -1,0 +1,64 @@
+body{
+    background-color: nth($bg-colors , 2);
+    color: nth($font-colors , 1);
+    font-family: 'Marcellus', serif;
+    nav{
+        background-color: nth($bg-colors , 1);
+    }
+    header{
+        h1{
+            color: nth($font-colors , 3)
+        }
+        h2{
+            @media screen  and (max-width: 480px){
+                color: nth($font-colors , 3);
+            }
+        }
+    }
+    section{
+        background-color: nth($bg-colors , 2);
+    }
+    aside{
+        background-image: linear-gradient(to bottom right, #df8a76,#e2421e);
+        ul{
+            li{
+               list-style: none;
+               a{
+                  color: nth($font-colors , 2);
+                  text-decoration: none;
+               }
+            }
+        }
+    }
+    footer{
+        padding-top: 10px;
+        background-color: nth($bg-colors , 5);
+    }
+}
+.indexBackgroundimage{
+    background-image: url("https://getwallpapers.com/wallpaper/full/6/8/2/1179664-cat-hd-wallpapers-1080p-1920x1080-smartphone.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 200px;
+    @media screen and (max-width: 620px){
+        background-position: 75%;
+        padding-left: 20px;
+    }
+    @media screen  and (max-width: 480px){
+        background-position: 85%;
+    }
+    
+}
+
+.colorText{
+    color: nth($font-colors , 1);
+    text-decoration: none;
+}
+.animate__animated.animate__bounceInLeft{
+    animation-delay: 1.5s;
+    animation-duration: 2s;
+}/*no los se anidar*/
+
+    
+    
